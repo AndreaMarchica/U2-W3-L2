@@ -43,7 +43,7 @@ let timer = () => {
   }
   const interval = setInterval(function () {
     const currentTime = Date.now();
-    const timePassed = Math.floor((currentTime - timePassed) / 1000);
+    const timePassed = Math.floor((currentTime - time) / 1000);
     sessionStorage.setItem("time", time.toString());
     document.getElementById(
       "numbers"
