@@ -46,7 +46,7 @@ let timer = () => {
     const timePassed = Math.floor((currentTime - timePassed) / 1000);
     sessionStorage.setItem("time", time.toString());
     document.getElementById(
-      "timer"
+      "numbers"
     ).textContent = `Time elapsed ${timePassed} seconds`;
   }, 1000);
 };
